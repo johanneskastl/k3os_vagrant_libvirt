@@ -19,7 +19,12 @@ packer build template.pkr.hcl
 vagrant box add --provider libvirt k3os k3os_libvirt.box
 ```
 
-3. Run the vagrant box:
+3. Make sure the permissions on the `packer_rsa` file are strict enough:
+```bash
+chmod 400 packer_rsa
+```
+
+4. Run the vagrant box:
 
 ```bash
 vagrant up
