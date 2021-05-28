@@ -3,3 +3,9 @@
 
 # ignore the box built by packer
 k3os_libvirt.box
+
+#
+# Ignore vagrant-related files
+#
+.vagrant
+Vagrantfile.1
