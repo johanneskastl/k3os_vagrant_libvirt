@@ -9,3 +9,7 @@ k3os_libvirt.box
 #
 .vagrant
 Vagrantfile.1
+
+#
+# ignore kubeconfig file fetched from the k3os node
+k3os-kubeconfig
