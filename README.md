@@ -33,3 +33,8 @@ vagrant up
 You can then login to the box using `vagrant ssh`. See [Vagrant
 Docs](https://www.vagrantup.com/docs/index.html) for more details on how
 to use Vagrant
+
+In case you want to start again, remove the box from vagrant and start again with step1.
+```bash
+vagrant box remove k3os
+```
