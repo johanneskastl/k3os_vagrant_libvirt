@@ -32,7 +32,8 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "output": "k3os_{{.Provider}}.box"
+      "output": "k3os_{{.Provider}}.box",
+      "provider_override": "libvirt"
     }
   ],
   "variables": {
