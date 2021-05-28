@@ -1,0 +1,3 @@
+[submodule "roles/fetch_k3os_kubeconfig"]
+	path = roles/fetch_k3os_kubeconfig
+	url = https://github.com/johanneskastl/ansible-role-fetch_k3os_kubeconfig
